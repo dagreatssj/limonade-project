@@ -1,0 +1,33 @@
+#prints {
+	position: relative;
+	width: 525px;
+	min-height: 50px;
+	float: left;
+}
+
+#shopping-cart {
+	position: relative;
+	width: 350px;
+	min-height: 75px;
+	float: right;
+	text-align: right;
+}
+
+#shopping-cart-display {
+	border: 2px solid black;
+}
+
+#gallery li {
+	float: left;
+}
+
+.clear{ 
+	clear: both;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+}
