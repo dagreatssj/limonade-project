@@ -20,7 +20,6 @@
 			<?php $ROOT_URL = 'http://'.$_SERVER['HTTP_HOST'].'/'; ?>
 			<a href="<?php echo $ROOT_URL; ?>home">HOME</a>
 			<a href="<?php echo $ROOT_URL; ?>portfolio/2011">PORTFOLIO</a>
-			<a href="http://luistinoco.blogspot.com/">BLOG</a>
 			<a href="<?php echo $ROOT_URL; ?>info">INFO</a>
 			<a href="<?php echo $ROOT_URL; ?>prints">PRINTS</a>
 			<a href="<?php echo $ROOT_URL; ?>contact">CONTACT</a>
