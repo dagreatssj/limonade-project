@@ -9,11 +9,11 @@
 
 require_once 'lib/limonade.php';
 
-function configure()
+/*function configure()
 {
 	mysql_connect('localhost', 'root', '') or die(mysql_error());
 	mysql_select_db('prints') or die(mysql_error());
-}
+}*/
 
 /**
  * Definition of routes and controllers
@@ -46,7 +46,7 @@ dispatch('/home', 'home');
 	function home()
 	{
 		layout('layouts/gh85.layout.php');
-		//set('title', 'Grim Hearts 1985');
+		set('title', 'Grim Hearts 1985');
 		//set('description', '');
 		//set('keywords', '');
 		return html('home.html.php');
@@ -56,7 +56,7 @@ dispatch('/portfolio/*', 'portfolio');
 	function portfolio()
 	{
 		$year = params(0);
-		//set('title', 'PORTFOLIO');
+		set('title', 'PORTFOLIO');
 		//set('description', '');
 		//set('keywords', '');
 		layout('layouts/portfolio.layout.php');
@@ -76,7 +76,7 @@ dispatch('/info', 'info');
 	function info()
 	{
 		layout('layouts/gh85.layout.php');
-		//set('title', 'PORTFOLIO');
+		set('title', 'PORTFOLIO');
 		//set('description', '');
 		//set('keywords', '');
 		return html('info.html.php');
@@ -86,7 +86,7 @@ dispatch('/prints', 'prints');
 	function prints()
 	{
 		layout('layouts/gh85.layout.php');
-		//set('title', 'PORTFOLIO');
+		set('title', 'PORTFOLIO');
 		//set('description', '');
 		//set('keywords', '');
 		return html('prints.html.php');
@@ -96,7 +96,7 @@ dispatch('/contact', 'contact');
 	function contact()
 	{
 		layout('layouts/gh85.layout.php');
-		//set('title', 'PORTFOLIO');
+		set('title', 'PORTFOLIO');
 		//set('description', '');
 		//set('keywords', '');
 		return html('contact.html.php');
@@ -140,7 +140,7 @@ dispatch_post('/processform', 'processform');
 /**
  * Admin Tools
  */
-dispatch('/admin/gh85', 'admin');
+/*dispatch('/admin/gh85', 'admin');
 	function admin()
 	{
 		return html('admin/admin.html.php');
@@ -278,6 +278,7 @@ dispatch_post('/admin/gh85/prints/delete', 'printdelete');
 			echo '<a href="http://'.$_SERVER['HTTP_HOST'].'/admin/gh85/prints">return to prints tool</a>';
 		}
 	}
+*/
 
 /**
  * run limonade app
