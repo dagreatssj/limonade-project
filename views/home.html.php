@@ -13,7 +13,7 @@
 	<div id="main-news">
 		<div id="main-leftNav">
 		<h3>Upcoming Shows</h3>
-			<p>UPCOMING SHOWS</p>
+			<p>AWESOMEPARAGRAPH!?#@!?#!@?#! GERE`</p>
 		</div>
 		<div id="main-rightNav">
 		<h3>Work in Progress</h3>
